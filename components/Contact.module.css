@@ -1,0 +1,6 @@
+.Contact :global {
+  @apply py-20 bg-lightGrey;
+  .container {
+    @apply max-w-6xl;
+  }
+}

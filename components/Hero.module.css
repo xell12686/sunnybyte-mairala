@@ -1,0 +1,25 @@
+.Hero :global {
+  @apply relative h-auto min-h-[60vh] w-full py-[100px] md:min-h-[700px];
+  @apply grid items-center;
+  .cta {
+    @apply  bg-primary p-5 text-center font-serif uppercase text-white hover:bg-primary/50  md:inline-block w-auto min-w-[268px] mt-12;
+    a {
+      @apply flex flex-row gap-3 items-center justify-center;
+    }
+  }
+  .bg {
+    @apply absolute top-0 left-0 h-full w-full;
+  }
+  .content {
+    @apply z-10 mb-24 w-full flex-row space-y-3 lg:w-3/4 text-white;
+    h2 {
+      @apply text-2xl  font-medium uppercase text-white tracking-widest;
+    }
+    h1 {
+      @apply uppercase;
+      span {
+        @apply text-light;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+  font-family: 'Oleo Script';
+  src: url('/fonts/OleoScript-Bold.woff2') format('woff2'),
+    url('/fonts/OleoScript-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oleo Script';
+  src: url('/fonts/OleoScript-Regular.woff2') format('woff2'),
+    url('/fonts/OleoScript-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+

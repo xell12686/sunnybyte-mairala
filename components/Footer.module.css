@@ -1,0 +1,30 @@
+.Footer :global {
+  .logo {
+    @apply font-cursive text-5xl text-light;
+  }
+  .top {
+    @apply bg-[#222222]
+  }
+  .bottom {
+    @apply bg-[#1c1c1c] text-[#595959];
+  }
+  .date {
+    @apply text-[#5f5f5f] flex;
+    font-size: 10px;
+  }
+  .author {
+    @apply flex flex-row items-center gap-3;
+    span:first-child {
+      @apply text-[#5f5f5f];
+      font-size: 10px;
+    }
+  }
+  .contact-info {
+    li {
+      @apply flex flex-row gap-3 items-center mb-1;
+    }
+    svg {
+      @apply w-4 h-4 text-lightest;
+    }
+  }
+}

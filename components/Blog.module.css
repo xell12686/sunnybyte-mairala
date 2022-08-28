@@ -1,0 +1,21 @@
+.Blog :global {
+  @apply py-20 bg-white;
+  .container {
+    @apply max-w-5xl;
+  }
+  .post-img {
+    @apply relative;
+  }
+  p {
+    @apply leading-9;
+  }
+  .carousel {
+    @apply relative;
+    .nav {
+      @apply m-auto inset-0 w-full h-auto flex justify-between absolute z-10 items-center px-4;
+      svg {
+        @apply w-11 h-11 text-lightest opacity-70 hover:opacity-100 cursor-pointer;
+      }
+    }
+  }
+}
